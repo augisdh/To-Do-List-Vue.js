@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+.toDo-ctx {
+    padding: 0;
+}
+
+.toDoList {
+    list-style: none;
+}
+
+.taskDone label{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.deleteIcon{
+    display: none;
+    text-decoration: none;
+}
+
+.toDoList:hover .deleteIcon{
+    display: inline-block;
+    color: blue;
+}
+
+.toDoList-InputBtn {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    width: 300px;
+    height: 38px;
+    padding-left: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.done-ctx {
+    margin-top: 20px;
+}
+
