@@ -6,9 +6,7 @@ let todoApp = new Vue({
         title: "Užduočių sąrašas",
         subtitle: "Šiandien padaryti",
         doneSubtitle: "Atlikta",
-        tasks: [
-
-        ],
+        tasks: [],
         userInput: "",
         run: false
     },
